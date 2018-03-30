@@ -9,3 +9,5 @@ console.log("I know who you are, " + userFirst);
 console.log("I also know your last name.... " + userLast);
 
 console.log("BUT I KNOW YOUR AGE TOOOOO " + userAge);
+
+console.log("I've got you now, " +userFirst + " " + userLast + " who's " + " " + userAge);
