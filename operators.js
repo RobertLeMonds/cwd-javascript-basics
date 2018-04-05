@@ -1,25 +1,12 @@
-var age = prompt("How old are you?");
+var age = Number(prompt("what is your age?"));
 
-
-
-
-if (age < 18) {
-	console.log("sorry, you are not old enough to enter the venue");
+if (age < 0) {
+	console.log("come back once you're out of the womb");
 }
 
-else if (age < 21) {
-	console.log("You can enter, but cannot drink");
+if (age === 21) {
+	console.log("happy 21st birthday!");
 }
 
-else if (age < 1) {
-	console.log("Error");
-}
-
-else if (age === 21) {
-	console.log("Happy 21st birthday!!")
-}
-
-else {
-	console.log("Come on in. You can drink.");
-}
+if 
 
