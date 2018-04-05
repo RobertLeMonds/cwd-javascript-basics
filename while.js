@@ -21,3 +21,16 @@ while(allOdd <=333) {
 	}
 	allOdd++;
 }
+
+var allDivi = 5;
+
+while(allDivi <=50) {
+	if (allDivi %3) {
+		console.log(allDivi);
+	}
+
+	else if (allDivi %5) {
+		console.log(allDivi);
+	}
+	allDivi++;
+}
