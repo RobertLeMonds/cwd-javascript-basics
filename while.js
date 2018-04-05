@@ -5,12 +5,28 @@ while (allNumbers <= 19) {
 	allNumbers++;
 }
 
+console.log("this is the for loop");
+
+for(var i = -10; i <= 19; i++){
+	console.log(i);
+}
+
 var allEven = 10;
 
 while(allEven <=40) {
 		console.log(allEven);
 		allEven+=2;
 }
+
+console.log("this is the for loop");
+
+for(var i = 10; i <= 40; i+=2){
+	console.log(i);
+}
+
+
+
+
 
 
 var allOdd = 300;
@@ -21,6 +37,21 @@ while(allOdd <=333) {
 	}
 	allOdd++;
 }
+
+
+console.log("this is the for loop");
+
+for(var i = 300; i <= 333; i++) if (i % 2 !== 0) {
+	console.log(i);
+}
+
+console.log("this is the for loop");
+
+for(var i = 5; i <= 50; i++) if (i % 5 === 0 && i % 3 ===0) {
+	console.log(i);
+}
+
+
 
 
 //Incorrect solution
