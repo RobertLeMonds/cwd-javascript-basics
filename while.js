@@ -22,7 +22,9 @@ while(allOdd <=333) {
 	allOdd++;
 }
 
-var allDivi = 5;
+
+//Incorrect solution
+/*var allDivi = 5;
 
 while(allDivi <=50) {
 	if (allDivi %3) {
@@ -33,4 +35,16 @@ while(allDivi <=50) {
 		console.log(allDivi);
 	}
 	allDivi++;
+}
+
+*/
+//Correct Solution
+
+var counter = 5;
+
+while(counter <= 50) {
+	if(counter % 5 === 0 && counter % 3 ===0){
+		console.log(counter);
+	}
+	counter+=1;
 }
